@@ -7,18 +7,14 @@
 #include "utils/Util.h"
 
 #include "GUI/UILayer.h"
-#include "gui/Window.h"
 #include "gui/Button.h"
 #include "gui/Panel.h"
-#include "gui/VisibleRect.h"
 
 class LoginLayer : public UILayer
 {
 public:
    
     virtual bool init();  
-    
-    void menuCloseCallback(Object* pSender);
     
     CREATE_FUNC(LoginLayer);
 
