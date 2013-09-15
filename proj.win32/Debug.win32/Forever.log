@@ -1,8 +1,29 @@
-﻿生成启动时间为 2013/9/15 13:17:31。
-     1>项目“D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Forever.vcxproj”在节点 2 上(Build 个目标)。
-     1>PreLinkEvent:
+﻿生成启动时间为 2013/9/15 20:14:17。
+     1>项目“D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\Forever.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\cocos2dx" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\cocos2dx\include" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\cocos2dx\platform\win32" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\external" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\CocosDenshion\include" /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\extensions" /I..\Classes /I.. /I"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\protobuf-2.5.0\src" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4204 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\client\SocketClient.cpp ..\Classes\client\SocketMgr.cpp ..\Classes\GameContext.cpp ..\Classes\GameScene.cpp ..\Classes\gui\Button.cpp ..\Classes\gui\Panel.cpp ..\Classes\gui\UILayer.cpp ..\Classes\gui\VisibleRect.cpp ..\Classes\gui\Widget.cpp ..\Classes\gui\Window.cpp ..\Classes\Loading.cpp ..\Classes\LoginLayer.cpp ..\Classes\log\Log.cpp ..\Classes\MainLayer.cpp ..\Classes\protocol\GameProtocol.pb.cc ..\Classes\socket\Socket.cpp ..\Classes\socket\SocketAddr.cpp main.cpp
+         AppDelegate.cpp
+         SocketClient.cpp
+         SocketMgr.cpp
+         GameContext.cpp
+         GameScene.cpp
+         Button.cpp
+         Panel.cpp
+         UILayer.cpp
+         VisibleRect.cpp
+         Widget.cpp
+         Window.cpp
+         Loading.cpp
+         LoginLayer.cpp
+         Log.cpp
+         MainLayer.cpp
+         GameProtocol.pb.cc
+         Socket.cpp
+         SocketAddr.cpp
+         main.cpp
+       PreLinkEvent:
          if not exist "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\" mkdir "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\"
-         xcopy /Y /Q "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\"
          :VCEnd
          复制了 2 个文件
        Link:
@@ -149,8 +170,8 @@
      1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
      1>libprotobuf.lib(stringprintf.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
          Forever.vcxproj -> D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\Forever.exe
-     1>已完成生成项目“D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Forever.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\ForeverClient\proj.win32\Forever.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:11.77
+已用时间 00:01:39.20
