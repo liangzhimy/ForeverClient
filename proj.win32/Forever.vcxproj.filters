@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\socket">
+      <UniqueIdentifier>{3aaabe26-9eeb-467c-83a2-93772d394e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\protocol">
+      <UniqueIdentifier>{abeadcb4-766e-4493-af8d-9ba9b0e47100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils">
+      <UniqueIdentifier>{a2bf6e9c-9be0-43af-a9f2-1068a8029209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\client">
+      <UniqueIdentifier>{1864d782-c850-4a8a-aded-43256f026dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gui">
+      <UniqueIdentifier>{4587f9b6-dbcd-42a5-af87-9cc7e7242372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\log">
+      <UniqueIdentifier>{258fab53-a0f4-4a60-a53e-807d1ac2d11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\json">
+      <UniqueIdentifier>{5bb94fc6-660d-4f9c-96c0-2601be7f2e84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\Socket.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\SocketAddr.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protocol\GameProtocol.pb.cc">
+      <Filter>Classes\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\client\SocketClient.cpp">
+      <Filter>Classes\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\client\SocketMgr.cpp">
+      <Filter>Classes\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\Button.cpp">
+      <Filter>Classes\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\VisibleRect.cpp">
+      <Filter>Classes\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\Widget.cpp">
+      <Filter>Classes\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\UILayer.cpp">
+      <Filter>Classes\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\Window.cpp">
+      <Filter>Classes\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\Panel.cpp">
+      <Filter>Classes\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Loading.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameContext.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\log\Log.cpp">
+      <Filter>Classes\log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\Socket.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\SocketAddr.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\GameProtocol.pb.h">
+      <Filter>Classes\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Util.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\client\SocketClient.h">
+      <Filter>Classes\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\client\SocketMgr.h">
+      <Filter>Classes\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\OprateMap.h">
+      <Filter>Classes\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\Button.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\VisibleRect.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\SocketMacros.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\Widget.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\StringBuilder.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\UILayer.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\GUIHelper.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\Window.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\Panel.h">
+      <Filter>Classes\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Loading.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameContext.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Singleton.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\StatTimer.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\log\Log.h">
+      <Filter>Classes\log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

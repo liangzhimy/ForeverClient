@@ -1,0 +1,152 @@
+-- 避免内存泄露
+collectgarbage("setpause", 100)
+collectgarbage("setstepmul", 5000)
+
+--设置随机数种子
+math.randomseed( os.time() )
+require "scripts/cfg_vip"
+require "scripts/cfg_task_daily"
+require "scripts/cfg_army_data"
+require "scripts/cfg_camp_data"
+require "scripts/cfg_legion_tech"
+require "scripts/cfg_total_reward"
+
+require "scripts/cfg_event"
+require "scripts/data_config_global"
+require "scripts/data_config_string_utf8"
+require "scripts/data_panel_daily"
+require "scripts/data_gamedate_roleInfo"
+
+require "scripts/public"
+require "scripts/net"
+require "scripts/Queue"
+require "scripts/wait"
+require "scripts/item_dialog"
+require "scripts/widget_bar"
+require "scripts/widget_dialog"
+require "scripts/widget_button_radio"
+require "scripts/widget_label_label"
+require "scripts/widget_button_buttonScale"
+require "scripts/widget_panel_bg"
+require "scripts/widget_panel_tip"
+
+require "scripts/user_guides"
+require "scripts/step_open"
+require "scripts/boss_war"
+require "scripts/league_war"
+require "scripts/world_map"
+require "scripts/event"
+
+require "scripts/widget_panel_main"
+require "scripts/widget_panel_general_list"
+
+require "scripts/widget_panel_heroBasic"
+require "scripts/widget_panel_role_zb"
+require "scripts/widget_panel_role_info"
+
+require "scripts/widget_panel_gua_ji"
+require "scripts/widget_panel_activity"
+require "scripts/widget_panel_xi_sui"
+require "scripts/widget_panel_ji_xing"
+require "scripts/widget_panel_ji_xing_fete"
+require "scripts/widget_panel_xun_lian"
+require "scripts/widget_panel_xun_lian_zhong"
+require "scripts/widget_panel_xun_lian_bottom"
+require "scripts/widget_panel_dui_xing"
+require "scripts/widget_panel_choose_server"
+require "scripts/widget_panel_shop"
+require "scripts/widget_panel_vip"
+require "scripts/widget_panel_pay"
+require "scripts/widget_panel_hades"
+require "scripts/widget_panel_general_extend"
+
+require "scripts/widget_panel_baoguo_action"
+require "scripts/widget_panel_baoguo_wp"
+require "scripts/widget_panel_baoguo"
+
+require "scripts/widget_panel_mail_main"
+require "scripts/widget_panel_mail_inbox"
+require "scripts/widget_panel_mail_send"
+require "scripts/widget_panel_mail_feedback"
+
+require "scripts/widget_panel_qh"
+require "scripts/widget_panel_qh_qiang_hua"
+require "scripts/widget_panel_qh_xiang_qian"
+require "scripts/widget_panel_qh_he_cheng"
+require "scripts/widget_panel_qh_equip_composite"
+
+require "scripts/widget_panel_arena"
+require "scripts/widget_panel_arena_ph"
+
+require "scripts/widget_panel_daily_battle"
+require "scripts/widget_panel_daily_battle_fight"
+require "scripts/widget_panel_daily_battle_sweep"
+require "scripts/widget_panel_fight_booty"
+require "scripts/widget_panel_fight_dialog"
+require "scripts/widget_panel_fight_result"
+--require "scripts/widget_panel_fight_replay"
+
+require "scripts/widget_panel_fuben_main"
+require "scripts/widget_panel_fuben_team"
+require "scripts/widget_panel_fuben_team_list"
+require "scripts/widget_panel_fuben_team_mine"
+require "scripts/widget_panel_fuben_jy"
+require "scripts/widget_panel_fuben_jy_fight"
+require "scripts/widget_panel_fuben_sao_dang"
+
+require "scripts/widget_panel_shen_yu"
+require "scripts/widget_panel_shen_yu_lqg"
+require "scripts/widget_panel_shen_yu_lgy"
+require "scripts/widget_panel_shen_yu_fwjl"
+require "scripts/widget_panel_shen_yu_yb"
+require "scripts/widget_panel_shen_yu_yb_dj"
+require "scripts/widget_panel_shen_yu_slave_net"
+require "scripts/widget_panel_shen_yu_slave"
+
+require "scripts/widget_panel_zhao_mu"
+require "scripts/widget_panel_zhao_mu_mj"
+
+require "scripts/widget_panel_chat"
+require "scripts/widget_panel_chatData"
+require "scripts/widget_panel_chat_sms"
+
+require "scripts/widget_panel_frinend_main"
+require "scripts/widget_panel_frinend"
+require "scripts/widget_panel_frinend_control"
+require "scripts/widget_panel_private_msg"
+
+require "scripts/widget_panel_tian_fu_main"
+require "scripts/widget_panel_tian_fu"
+
+require "scripts/npc_task"
+require "scripts/widget_panel_task"
+require "scripts/widget_panel_effect"
+
+require "scripts/widget_panel_gift"
+require "scripts/widget_panel_gift_server_open"
+require "scripts/reward_online"
+require "scripts/reward_new"
+
+require "scripts/widget_panel_jz"
+require "scripts/widget_panel_jz_list"
+require "scripts/widget_panel_jz_main"
+require "scripts/widget_panel_jz_chat"
+require "scripts/widget_panel_jz_jian_se"
+require "scripts/widget_panel_jz_members"
+require "scripts/widget_panel_jz_apply"
+require "scripts/widget_panel_jz_info"
+require "scripts/widget_panel_jz_view"
+
+require "scripts/widget_panel_wish"
+require "scripts/widget_panel_wish_gift"
+
+require "scripts/widget_panel_rc_main"
+require "scripts/widget_panel_rc_rc"
+require "scripts/widget_panel_rc_xs"
+require "scripts/widget_panel_rc_js"
+require "scripts/widget_panel_rc_ph"
+require "scripts/widget_panel_rc_setting"
+
+require "scripts/widget_panel_quick_reward"
+require "scripts/widget_panel_ruins"
+require "scripts/widget_panel_upgrade_assist"

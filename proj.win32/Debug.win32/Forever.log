@@ -1,0 +1,156 @@
+﻿生成启动时间为 2013/9/15 13:17:31。
+     1>项目“D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Forever.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\" mkdir "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\Forever.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\\" /LIBPATH:"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib websockets.lib libprotobuf.lib vld.lib opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\Forever.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\Forever.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\SocketClient.obj
+         Debug.win32\SocketMgr.obj
+         Debug.win32\GameContext.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\Button.obj
+         Debug.win32\Panel.obj
+         Debug.win32\UILayer.obj
+         Debug.win32\VisibleRect.obj
+         Debug.win32\Widget.obj
+         Debug.win32\Window.obj
+         Debug.win32\Loading.obj
+         Debug.win32\LoginLayer.obj
+         Debug.win32\Log.obj
+         Debug.win32\MainLayer.obj
+         Debug.win32\GameProtocol.pb.obj
+         Debug.win32\Socket.obj
+         Debug.win32\SocketAddr.obj
+         Debug.win32\main.obj
+         "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\libcocos2d.lib"
+         "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\libExtensions.lib"
+         "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\libBox2D.lib"
+         "D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libExtensions.lib(CCScale9Sprite.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAtlasNode.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCNode.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccFPSImages.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccTypes.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAffineTransform.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCArray.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAutoreleasePool.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCDataVisitor.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCDictionary.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCGeometry.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCNS.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCObject.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCSet.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCString.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCData.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCDrawingPrimitives.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCGrabber.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCGrid.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAction.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCActionCatmullRom.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCActionInterval.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCActionManager.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCKeyboardDispatcher.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCLabelAtlas.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCLabelBMFont.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCLayer.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCScene.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCEGLViewProtocol.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCFileUtils.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCImageCommonWebp.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCSAXParser.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCThread.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAccelerometer.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCApplication.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCCommon.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCEGLView.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCFileUtilsWin32.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCImage.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCStdC.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCGLProgram.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccGLStateCache.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCShaderCache.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccShaders.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAnimation.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCAnimationCache.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCSprite.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCSpriteBatchNode.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCSpriteFrame.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCSpriteFrameCache.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(base64.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCNotificationCenter.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccUTF8.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccUtils.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCComponent.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCComponentContainer.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(tinyxml2.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(TransformUtils.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ccCArray.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCUserDefault.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ioapi.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(unzip.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(ZipUtils.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTexture2D.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTextureAtlas.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTextureCache.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTextureETC.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTexturePVR.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(etc1.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTouch.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTouchDispatcher.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCTouchHandler.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCKeypadDelegate.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCKeypadDispatcher.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCIMEDispatcher.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCScriptSupport.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(mat4.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(quaternion.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(utility.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(vec3.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(vec4.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(mat4stack.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(matrix.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCCamera.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCConfiguration.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCDirector.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(CCScheduler.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libcocos2d.lib(cocos2d.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(common.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(once.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strutil.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(substitute.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(text_format.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4204: “D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+         Forever.vcxproj -> D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Debug.win32\Forever.exe
+     1>已完成生成项目“D:\cocos2d-x\cocos2d-x-3.0alpha0-pre\projects\forever\proj.win32\Forever.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.77

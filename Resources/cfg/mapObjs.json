@@ -1,0 +1,1220 @@
+{
+	"100001":{
+		"animations":[{
+			"id":"npc/npc_100001/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10001":{
+		"animations":[{
+			"id":"npc/npc_10001/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10002":{
+		"animations":[{
+			"id":"npc/npc_10002/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1000200":{
+		"animations":[{
+			"id":"npc/npc_1000200/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10003":{
+		"animations":[{
+			"id":"npc/npc_10003/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1000300":{
+		"animations":[{
+			"id":"npc/npc_1000300/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10004":{
+		"animations":[{
+			"id":"npc/npc_10004/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1000400":{
+		"animations":[{
+			"id":"npc/npc_1000400/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10005":{
+		"animations":[{
+			"id":"npc/npc_10005/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1000500":{
+		"animations":[{
+			"id":"npc/npc_1000500/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10006":{
+		"animations":[{
+			"id":"npc/npc_10006/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1000600":{
+		"animations":[{
+			"id":"npc/npc_1000600/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10007":{
+		"animations":[{
+			"id":"npc/npc_10007/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1000700":{
+		"animations":[{
+			"id":"npc/npc_1000700/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10008":{
+		"animations":[{
+			"id":"npc/npc_10008/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10009":{
+		"animations":[{
+			"id":"npc/npc_10009/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1001":{
+		"animations":[
+			{
+				"id":"nan_jiashi/idle",
+				"name":"idle"
+			},
+			{
+				"id":"nan_jiashi/move",
+				"name":"move"
+			}
+		],
+		"moveSpeed":250,
+		"sprite":{
+			"anchorPoint":{
+				"x":0.5,
+				"y":0.05
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagFootNamebar":"-0 0",
+			"tagHeadNameBar":"0 114",
+			"tagPlayerTitle":"0 140",
+			"tagStatus":"0 122"
+		},
+		"type":"character"
+	},
+	"10010":{
+		"animations":[{
+			"id":"npc/npc_10010/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"10011":{
+		"animations":[{
+			"id":"npc/npc_10011/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1002":{
+		"animations":[
+			{
+				"id":"nan_moushi/idle",
+				"name":"idle"
+			},
+			{
+				"id":"nan_moushi/move",
+				"name":"move"
+			}
+		],
+		"moveSpeed":250,
+		"sprite":{
+			"anchorPoint":{
+				"x":0.6,
+				"y":0.027
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagFootNamebar":"-0 0",
+			"tagHeadNameBar":"0 111",
+			"tagPlayerTitle":"0 140",
+			"tagStatus":"0 122"
+		},
+		"type":"character"
+	},
+	"1003":{
+		"animations":[
+			{
+				"id":"nv_moushi/idle",
+				"name":"idle"
+			},
+			{
+				"id":"nv_moushi/move",
+				"name":"move"
+			}
+		],
+		"moveSpeed":250,
+		"sprite":{
+			"anchorPoint":{
+				"x":0.55,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagFootNamebar":"0 0",
+			"tagHeadNameBar":"0 110",
+			"tagPlayerTitle":"0 140",
+			"tagStatus":"0 122"
+		},
+		"type":"character"
+	},
+	"1004":{
+		"animations":[
+			{
+				"id":"nan_cike/idle",
+				"name":"idle"
+			},
+			{
+				"id":"nan_cike/move",
+				"name":"move"
+			}
+		],
+		"moveSpeed":250,
+		"sprite":{
+			"anchorPoint":{
+				"x":0.585,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagFootNamebar":"0 0",
+			"tagHeadNameBar":"0 107",
+			"tagPlayerTitle":"0 140",
+			"tagStatus":"0 122"
+		},
+		"type":"character"
+	},
+	"1005":{
+		"animations":[
+			{
+				"id":"nv_cike/idle",
+				"name":"idle"
+			},
+			{
+				"id":"nv_cike/move",
+				"name":"move"
+			}
+		],
+		"moveSpeed":250,
+		"sprite":{
+			"anchorPoint":{
+				"x":0.5,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagFootNamebar":"0 0",
+			"tagHeadNameBar":"0 104",
+			"tagPlayerTitle":"0 140",
+			"tagStatus":"0 122"
+		},
+		"type":"character"
+	},
+	"1006":{
+		"animations":[
+			{
+				"id":"nv_wuzhe/idle",
+				"name":"idle"
+			},
+			{
+				"id":"nv_wuzhe/move",
+				"name":"move"
+			}
+		],
+		"moveSpeed":250,
+		"sprite":{
+			"anchorPoint":{
+				"x":0.53,
+				"y":0.01
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagFootNamebar":"0 0",
+			"tagHeadNameBar":"0 101",
+			"tagPlayerTitle":"0 155",
+			"tagStatus":"0 122"
+		},
+		"type":"character"
+	},
+	"11001":{
+		"animations":[{
+			"id":"npc/npc_11001/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1100100":{
+		"animations":[{
+			"id":"npc/npc_1100100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1100300":{
+		"animations":[{
+			"id":"npc/npc_1100300/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1100500":{
+		"animations":[{
+			"id":"npc/npc_1100500/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1100700":{
+		"animations":[{
+			"id":"npc/npc_1100700/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1100800":{
+		"animations":[{
+			"id":"npc/npc_1100800/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1100900":{
+		"animations":[{
+			"id":"npc/npc_1100900/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1200100":{
+		"animations":[{
+			"id":"npc/npc_1200100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1200300":{
+		"animations":[{
+			"id":"npc/npc_1200300/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1200600":{
+		"animations":[{
+			"id":"npc/npc_1200600/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1200700":{
+		"animations":[{
+			"id":"npc/npc_1200700/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1200800":{
+		"animations":[{
+			"id":"npc/npc_1200800/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1200900":{
+		"animations":[{
+			"id":"npc/npc_1200900/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1300100":{
+		"animations":[{
+			"id":"npc/npc_1300100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1300300":{
+		"animations":[{
+			"id":"npc/npc_1300300/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1300400":{
+		"animations":[{
+			"id":"npc/npc_1300400/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1300800":{
+		"animations":[{
+			"id":"npc/npc_1300800/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"1301000":{
+		"animations":[{
+			"id":"npc/npc_1301000/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2000100":{
+		"animations":[{
+			"id":"npc/npc_2000100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2000200":{
+		"animations":[{
+			"id":"npc/npc_2000200/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2000900":{
+		"animations":[{
+			"id":"npc/npc_2000900/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2001100":{
+		"animations":[{
+			"id":"npc/npc_2001100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2001400":{
+		"animations":[{
+			"id":"npc/npc_2001400/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2002100":{
+		"animations":[{
+			"id":"npc/npc_2002100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"2003900":{
+		"animations":[{
+			"id":"npc/npc_2003900/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"4000500":{
+		"animations":[{
+			"id":"npc/npc_4000500/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"4001100":{
+		"animations":[{
+			"id":"npc/npc_4001100/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"4001200":{
+		"animations":[{
+			"id":"npc/npc_4001200/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"4001300":{
+		"animations":[{
+			"id":"npc/npc_4001300/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"5000700":{
+		"animations":[{
+			"id":"npc/npc_5000700/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.61,
+				"y":0
+			},
+			"file":"simplePerson.png",
+			"tagStatus":"0 148",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 128",
+			"tagSpeakBubble":"19 109",
+			"tagStatus":"0 148"
+		},
+		"type":"npc"
+	},
+	"battleEntry":{
+		"animations":[{
+			"id":"battleEntry/idle",
+			"name":"idle"
+		}],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.5,
+				"y":0.25
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 108"
+		},
+		"type":"battleEntry"
+	},
+	"entry":{
+		"animations":[
+			{
+				"id":"entry/idle",
+				"name":"idle"
+			},
+			{
+				"id":"battleEntry/idle",
+				"name":"battleIdle"
+			}
+		],
+		"sprite":{
+			"anchorPoint":{
+				"x":0.5,
+				"y":0.35
+			},
+			"file":"simplePerson.png",
+			"type":"texture"
+		},
+		"tagPoints":{
+			"tagHeadNameBar":"0 88"
+		},
+		"type":"cityMapEntry"
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "size": "2032 600",
+    "music": "sounds/sence_tucheng_zsqz.mp3",
+    "backgroundTexture": {
+        "prefix": "maps/map_shigu/map_shigu_",
+        "suffix": ".jpg",
+        "range": "0 1",
+        "col": 2
+    },
+    "foregroundTextures": [{
+        "type": "texture",
+        "file": "maps/map_shigu/map_shigu_jg1.png",
+        "anchorPoint": "0 0",
+        "position": "0 0"
+    },{
+        "type": "texture",
+        "file": "maps/map_shigu/map_shigu_jg2.png",
+        "anchorPoint": "1 0",
+        "position": "2032 0"
+    }],
+   "graphData": {
+        "edgeList": [],
+        "node": 2,
+        "nodeList": [ "0 0", "0 0"]
+    },
+    "obstacleList": ["0 325 2032 275"]
+}

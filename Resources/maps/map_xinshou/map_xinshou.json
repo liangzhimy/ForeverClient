@@ -1,0 +1,27 @@
+{ 
+ "size": "2100 600",
+    "music": "sounds/scene_jiaoqu_zsqz.mp3",
+    "backgroundTexture": {
+        "prefix": "maps/map_xinshou/map_xinshou_",
+        "suffix": ".jpg",
+        "range": "0 2",
+        "col": 2
+    },
+	"foregroundTextures": [{
+        "type": "texture",
+        "file": "maps/map_xinshou/map_xinshou_jg1.png",
+        "anchorPoint": "0 0",
+        "position": "0 0"
+    },{
+        "type": "texture",
+        "file": "maps/map_xinshou/map_xinshou_jg2.png",
+        "anchorPoint": "1 0",
+        "position": "2145 0"
+    }],
+   "graphData": {
+        "edgeList": [],
+        "node":3,
+        "nodeList": ["963 185", "0 0", "0 0"]
+    },
+    "obstacleList": ["0 246 981 354","981 201 1119 399"]
+}

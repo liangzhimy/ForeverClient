@@ -1,0 +1,33 @@
+{
+    "size": "1800 600",
+    "music": "sounds/scene_chengzhen_zsqz.mp3",
+    "backgroundTexture": {
+        "prefix": "maps/map_city1/map_city1_",
+        "suffix": ".jpg",
+        "range": "0 1",
+        "col": 2
+    },
+    "foregroundTextures": [{
+        "type": "texture",
+        "file": "maps/map_city1/map_city1_jg01.png",
+        "anchorPoint": "0 0",
+        "position": "0 0"
+    },
+	{
+        "type": "texture",
+        "file": "maps/map_city1/map_city1_jg02.png",
+        "anchorPoint": "1 0",
+        "position": "1440 0"
+    },{
+        "type": "texture",
+        "file": "maps/map_city1/map_city1_jg03.png",
+        "anchorPoint": "1 0",
+        "position": "1800 0"
+    }],
+   "graphData": {
+        "edgeList": ["0 1", "1 2", "2 3", "3 4"],
+        "node": 7,
+        "nodeList": ["492 195", "667 195", "1045 195", "1192 195", "1622 195", "0 0", "0 0"]
+    },
+    "obstacleList": ["0 205 482 395","482 270 195 330","677 205 358 395","1035 270 167 330","1202 205 410 395","1612 270 188 330"]
+}
