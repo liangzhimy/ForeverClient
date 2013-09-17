@@ -14,6 +14,35 @@ class MessageSendThread;
 #define SEND_BUF_SIZE 1024
 #define RECV_BUF_SIZE 1024 * 1024
 
+class Callback
+{
+public:
+	virtual ~Callback() {};
+	virtual void onMessage(google::protobuf::Message* message) const = 0;
+};
+
+template <typename T>
+class CallbackT : public Callback
+{
+public:
+	typedef std::function<void (T* message)> ProtobufMessageCallback;
+
+	CallbackT(const ProtobufMessageCallback& callback)
+		: callback_(callback)
+	{
+	}
+
+	virtual void onMessage(google::protobuf::Message* message) const
+	{
+		T* t = dynamic_cast<T*>(message);
+		assert(t != NULL);
+		callback_(t);
+	}
+
+private:
+	ProtobufMessageCallback callback_;
+};
+
 /**
 * Socket客户端，用来发送消息，接收消息
 * 发送消息会在发送线程中，
@@ -54,6 +83,11 @@ public:
 	*/
 	void registCallback(int type,DispatchFunc func);
 
+	template<typename T>
+	void registCallbackT(int type,const typename CallbackT<T>::ProtobufMessageCallback& callback)
+	{
+		_callbacksT[type] = new CallbackT<T>(callback);
+	}
 private:
 	SocketClient();
 	virtual ~SocketClient();
@@ -72,7 +106,8 @@ private:
 	MessageSendThread*			_sendThread;
 	MessageRecvThread*			_recvThread;
 
-	std::map<int,DispatchFunc>	_callbacks;
+	std::map<int, DispatchFunc>	_callbacks;
+	std::map<int, Callback*>	_callbacksT;
 	std::string					_ip;
 	int							_port;
 	Socket::SocketType			_type;

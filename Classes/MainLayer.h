@@ -12,6 +12,8 @@
 #include "gui/Panel.h"
 #include "gui/VisibleRect.h"
 
+using namespace com::qiyi::forever::master::protobuf;
+
 class MainLayer : public UILayer
 {
 public:
@@ -22,7 +24,7 @@ public:
     
     CREATE_FUNC(MainLayer);
 
-	void onLoginResponse(ProtobufMessage* message);
+	void onLoginResponse(LoginResponse* message);
 
 	void onButtonClick(Node* button, Point pos);
 };

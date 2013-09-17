@@ -8,8 +8,6 @@
 
 USING_NS_CC_EXT;
 
-using namespace com::qiyi::forever::master::protobuf;
-
 bool MainLayer::init()
 {
 	UILayer::initWithColor(Color4B(158,125,147,159));
@@ -41,7 +39,6 @@ bool MainLayer::init()
 	panel->setPosition(100,100);
 	this->addChild(panel);
 
-
 	Sprite* sprite2 = Sprite::create("UI/public/locked_k.png");
 	sprite2->setAnchorPoint(Point(0,0));
 	sprite2->setPosition(Point(0,0));
@@ -51,7 +48,6 @@ bool MainLayer::init()
 	widgetDraggable->setAnchorPoint(Point(0,0));
 	widgetDraggable->setPosition(Point(100,100));
 	this->addChild(widgetDraggable);
-
 
 	Scale9Sprite* scale9Sprite = Scale9Sprite::create("UI/public/recuit_dark.png");
 	scale9Sprite->setAnchorPoint(Point(0.5,0.5));
@@ -68,7 +64,7 @@ void MainLayer::onButtonClick(Node* button,Point pos)
 	TextureCache::getInstance()->dumpCachedTextureInfo();
 }
 
-void MainLayer::onLoginResponse(ProtobufMessage* message)
+void MainLayer::onLoginResponse(LoginResponse* message)
 {
 	LoginResponse* response = (LoginResponse*)message;
 	CCLOG("onLoginResponse...%s errorcode %d",response->msg().c_str(),response->errorcode());
@@ -83,7 +79,8 @@ void MainLayer::menuCloseCallback(Object* pSender)
 	socketClient = SocketMgr::get();
 
 	auto callback = std::bind(&MainLayer::onLoginResponse,this,std::placeholders::_1);
-	socketClient->registCallback(Opration::LOGIN,callback);
+	socketClient->registCallbackT<LoginResponse>(1,callback);
+
 	if (socketClient->connect())
 	{
 		LoginRequest* loginRequestMessage = new LoginRequest();
