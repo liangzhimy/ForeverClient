@@ -72,17 +72,13 @@ void UILayer::onExit()
 	CCLayer::onExit();
 }
 
-void UILayer::registerWithTouchDispatcher()
-{
-	Director::getInstance()->getTouchDispatcher()->addTargetedDelegate(this, kUILayerTouchPriority, true);
-}
 
 void UILayer::setZOrder(int z)
 {
-	Director::getInstance()->getTouchDispatcher()->setPriority(-z, this);
+	//Director::getInstance()->getTouchDispatcher()->setPriority(-z, this);
 }
 
-bool UILayer::ccTouchBegan(Touch* pTouch, Event* event)
+bool UILayer::onTouchBegan(Touch* pTouch, Event* event)
 {
 	CC_UNUSED_PARAM(event);
 
@@ -130,7 +126,7 @@ bool UILayer::ccTouchBegan(Touch* pTouch, Event* event)
 	return false;
 }
 
-void UILayer::ccTouchEnded(Touch* pTouch, Event* event)
+void UILayer::onTouchEnded(Touch* pTouch, Event* event)
 {
 	if (_touchDownWidget)
 	{
@@ -168,7 +164,7 @@ void UILayer::ccTouchEnded(Touch* pTouch, Event* event)
 	_state = kUILayerStateWaiting;
 }
 
-void UILayer::ccTouchCancelled(Touch *pTouch, Event* event)
+void UILayer::onTouchCancelled(Touch *pTouch, Event* event)
 {
 	CC_UNUSED_PARAM(event);
 
@@ -180,7 +176,7 @@ void UILayer::ccTouchCancelled(Touch *pTouch, Event* event)
 	_state = kUILayerStateWaiting;
 }
 
-void UILayer::ccTouchMoved(Touch* pTouch, Event* event)
+void UILayer::onTouchMoved(Touch* pTouch, Event* event)
 {
 	CC_UNUSED_PARAM(event);
 

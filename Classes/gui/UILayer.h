@@ -33,12 +33,11 @@ public:
 	virtual void onEnter();
 	virtual void onExit();
 
-	virtual bool ccTouchBegan(Touch* touch, Event* event);
-	virtual void ccTouchEnded(Touch* touch, Event* event);
-	virtual void ccTouchCancelled(Touch *touch, Event* event);
-	virtual void ccTouchMoved(Touch* touch, Event* event);
+	virtual bool onTouchBegan(Touch* touch, Event* event);
+	virtual void onTouchEnded(Touch* touch, Event* event);
+	virtual void onTouchCancelled(Touch *touch, Event* event);
+	virtual void onTouchMoved(Touch* touch, Event* event);
 
-	virtual void registerWithTouchDispatcher();
 
 	/**
 	void removeWidget(Widget *widget);
