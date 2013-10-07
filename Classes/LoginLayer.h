@@ -17,6 +17,8 @@ public:
     CREATE_FUNC(LoginLayer);
 
 	void onLoginResponse(LoginResponse* message);
+
+	void onButtonClick(Object* sender,TouchEventType eventType);
 };
 
 #endif // __LOGIN_LAYER_H__

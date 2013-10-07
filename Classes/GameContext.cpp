@@ -8,7 +8,7 @@ GameContext::GameContext()
 {
 	s_Instance = this;
 	_socketClinet = SocketClient::createSocketClient("127.0.0.1",12345);
-	Configuration::getInstance()->loadConfigFile("config.plist");
+	Configuration::getInstance()->loadConfigFile("config.xml");
 }
 
 GameContext::~GameContext()

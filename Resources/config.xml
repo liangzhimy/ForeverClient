@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>label.passport</key>
+		<string>账号</string>
+		<key>label.password</key>
+		<string>密码</string>
+		
+		<key>button.login</key>
+		<string>登录</string>	
+		<key>button.regist</key>
+		<string>注册</string>			
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>
