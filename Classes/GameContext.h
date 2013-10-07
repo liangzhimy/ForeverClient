@@ -9,9 +9,14 @@ class GameContext
 public:
 	GameContext();
 	~GameContext();
+	
+	SocketClient* getSocketClient(){return _socketClinet;}
+
+	static GameContext* getInstance();
 
 private:
-	static GameContext* Instance;
+	SocketClient* _socketClinet;
+	static GameContext* s_Instance;
 };
 
 #endif // __GAME_CONTEXT_H__

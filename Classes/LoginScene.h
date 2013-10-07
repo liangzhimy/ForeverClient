@@ -2,9 +2,7 @@
 #define __GAME_SCENE_H__
 
 #include "cocos2d.h"
-#include "GameContext.h"
 #include "MainLayer.h"
-#include "LoginLayer.h"
 
 class GameScene : public cocos2d::Scene
 {
@@ -15,9 +13,7 @@ public:
     CREATE_FUNC(GameScene);
 
 private:
-	
-	MainLayer*	_mainLayer;
-	LoginLayer*	_loginLayer;
+	MainLayer* _mainLayer;
 };
 
 #endif // __GAME_SCENE_H__

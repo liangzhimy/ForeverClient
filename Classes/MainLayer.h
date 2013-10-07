@@ -6,15 +6,11 @@
 #include "protocol/GameProtocol.pb.h"
 #include "utils/Util.h"
 
-#include "GUI/UILayer.h"
-#include "gui/Window.h"
-#include "gui/Button.h"
-#include "gui/Panel.h"
 #include "gui/VisibleRect.h"
 
 using namespace com::qiyi::forever::master::protobuf;
 
-class MainLayer : public UILayer
+class MainLayer : public cocos2d::LayerColor
 {
 public:
    

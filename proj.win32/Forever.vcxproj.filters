@@ -25,9 +25,6 @@
     <Filter Include="Classes\log">
       <UniqueIdentifier>{258fab53-a0f4-4a60-a53e-807d1ac2d11f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\json">
-      <UniqueIdentifier>{5bb94fc6-660d-4f9c-96c0-2601be7f2e84}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -51,24 +48,6 @@
     <ClCompile Include="..\Classes\client\SocketMgr.cpp">
       <Filter>Classes\client</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\gui\Button.cpp">
-      <Filter>Classes\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\gui\VisibleRect.cpp">
-      <Filter>Classes\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\gui\Widget.cpp">
-      <Filter>Classes\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\gui\UILayer.cpp">
-      <Filter>Classes\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\gui\Window.cpp">
-      <Filter>Classes\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\gui\Panel.cpp">
-      <Filter>Classes\gui</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\MainLayer.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
@@ -86,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\log\Log.cpp">
       <Filter>Classes\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gui\VisibleRect.cpp">
+      <Filter>Classes\gui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -119,32 +101,11 @@
     <ClInclude Include="..\Classes\protocol\OprateMap.h">
       <Filter>Classes\protocol</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\gui\Button.h">
-      <Filter>Classes\gui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\gui\VisibleRect.h">
-      <Filter>Classes\gui</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\socket\SocketMacros.h">
       <Filter>Classes\socket</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\gui\Widget.h">
-      <Filter>Classes\gui</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\utils\StringBuilder.h">
       <Filter>Classes\utils</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\gui\UILayer.h">
-      <Filter>Classes\gui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\gui\GUIHelper.h">
-      <Filter>Classes\gui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\gui\Window.h">
-      <Filter>Classes\gui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\gui\Panel.h">
-      <Filter>Classes\gui</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\MainLayer.h">
       <Filter>Classes</Filter>
@@ -169,6 +130,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\log\Log.h">
       <Filter>Classes\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gui\VisibleRect.h">
+      <Filter>Classes\gui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

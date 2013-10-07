@@ -5,13 +5,14 @@
 #include "MainLayer.h"
 #include "client/SocketMgr.h"
 #include "cocos-ext.h"
+#include "protocol/GameProtocol.pb.h"
+
 
 USING_NS_CC_EXT;
 
 bool MainLayer::init()
 {
-	UILayer::initWithColor(Color4B(158,125,147,159));
-    
+  
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Point origin = Director::getInstance()->getVisibleOrigin();
 
@@ -26,7 +27,7 @@ bool MainLayer::init()
 	bg->setAnchorPoint(Point(0.5,0.5));
 	bg->setPosition(VisibleRect::center());
 	//this->addChild(bg);
-
+	/**
 	Button* button = Button::create("UI/public/back_btn.png");
 	button->setPosition(CCPoint(visibleSize.width/4,visibleSize.height/4));
 	button->setClickedHandler(CC_CALLBACK_2(MainLayer::onButtonClick,this));
@@ -54,7 +55,7 @@ bool MainLayer::init()
 	scale9Sprite->setPosition(VisibleRect::center());
 	scale9Sprite->setContentSize(Size(200,100));
 	this->addChild(scale9Sprite);
-
+	*/
 	return true;
 }
 
@@ -66,8 +67,7 @@ void MainLayer::onButtonClick(Node* button,Point pos)
 
 void MainLayer::onLoginResponse(LoginResponse* message)
 {
-	LoginResponse* response = (LoginResponse*)message;
-	CCLOG("onLoginResponse...%s errorcode %d",response->msg().c_str(),response->errorcode());
+	CCLOG("onLoginResponse...%s errorcode %d",message->msg().c_str(),message->errorcode());
 }
 
 void MainLayer::menuCloseCallback(Object* pSender)

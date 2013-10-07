@@ -2,7 +2,8 @@
 
 bool GameScene::init()
 {
-	_mainLayer = MainLayer::create();
-	this->addChild(_mainLayer);
+	GameContext* gameContext = GameContext::getInstance();
+	_loginLayer = LoginLayer::create();
+	this->addChild(_loginLayer);
 	return true;
 }
