@@ -10,6 +10,8 @@ public:
 	GameContext();
 	~GameContext();
 	
+	void init();
+
 	SocketClient* getSocketClient(){return _socketClinet;}
 
 	static GameContext* getInstance();

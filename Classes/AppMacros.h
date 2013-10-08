@@ -2,11 +2,9 @@
 #define __APPMACROS_H__
 #include "cocos2d.h"
 
-using namespace cocos2d;
-
-#define VISIBLE_SIZE	= (Director::getInstance()->getVisibleSize())
-#define ORIGIN			= (Director::getInstance()->getVisibleOrigin())
-#define CENTER			= Point(ORIGIN.x + VISIBLE_SIZE.width/2, ORIGIN.y + VISIBLE_SIZE.height/2)
-
+#define TAG_LOGIN_PASSPORT_EDITBOX	= 1001;
+#define TAG_LOGIN_PASSWORD_EDITBOX	= 1002;
+#define TAG_LOGIN_LOGIN_BUTTON		= 1003;
+#define TAG_LOGIN_REGIST_BUTTON		= 1004;
 
 #endif /* __APPMACROS_H__ */

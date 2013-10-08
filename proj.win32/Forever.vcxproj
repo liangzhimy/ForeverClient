@@ -140,6 +140,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\gui\VisibleRect.cpp" />
     <ClCompile Include="..\Classes\Loading.cpp" />
     <ClCompile Include="..\Classes\LoginLayer.cpp" />
+    <ClCompile Include="..\Classes\LoginScene.cpp" />
     <ClCompile Include="..\Classes\log\Log.cpp" />
     <ClCompile Include="..\Classes\MainLayer.cpp" />
     <ClCompile Include="..\Classes\protocol\GameProtocol.pb.cc" />
@@ -157,6 +158,7 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\gui\VisibleRect.h" />
     <ClInclude Include="..\Classes\Loading.h" />
     <ClInclude Include="..\Classes\LoginLayer.h" />
+    <ClInclude Include="..\Classes\LoginScene.h" />
     <ClInclude Include="..\Classes\log\Log.h" />
     <ClInclude Include="..\Classes\MainLayer.h" />
     <ClInclude Include="..\Classes\protocol\GameProtocol.pb.h" />

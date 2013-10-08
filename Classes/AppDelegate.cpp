@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
-#include "GameScene.h"
+#include "LoginScene.h"
+#include "GameContext.h"
 
 USING_NS_CC;
 
@@ -31,8 +32,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	// set FPS. the default value is 1.0/60 if you don't call this
 	director->setAnimationInterval(1.0 / 60);
 
+	GameContext::getInstance()->init();
+
 	// create a scene. it's an autorelease object
-	GameScene* scene = GameScene::create();
+	Scene* scene = LoginScene::scene();
 	director->runWithScene(scene);
     return true;
 }

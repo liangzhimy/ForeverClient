@@ -7,13 +7,17 @@ GameContext* GameContext::s_Instance = nullptr;
 GameContext::GameContext()
 {
 	s_Instance = this;
-	_socketClinet = SocketClient::createSocketClient("127.0.0.1",12345);
-	Configuration::getInstance()->loadConfigFile("config.xml");
 }
 
 GameContext::~GameContext()
 {
 
+}
+
+void GameContext::init()
+{
+	_socketClinet = SocketClient::createSocketClient("127.0.0.1",12345);
+	Configuration::getInstance()->loadConfigFile("string.xml");
 }
 
 GameContext* GameContext::getInstance()

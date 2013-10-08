@@ -1,19 +1,20 @@
-#ifndef __GAME_SCENE_H__
-#define __GAME_SCENE_H__
+#ifndef __LOGIN_SCENE_H__
+#define __LOGIN_SCENE_H__
 
 #include "cocos2d.h"
-#include "MainLayer.h"
+#include "cocos-ext.h"
 
-class GameScene : public cocos2d::Scene
+class LoginScene : public cocos2d::extension::UILayer
 {
 public:
-   
+
     virtual bool init();  
 
-    CREATE_FUNC(GameScene);
+    static cocos2d::Scene* scene();
 
-private:
-	MainLayer* _mainLayer;
+    CREATE_FUNC(LoginScene);
+
+	void onButtonClick(Object* sender,cocos2d::extension::TouchEventType eventType);
 };
 
-#endif // __GAME_SCENE_H__
+#endif // __LOGIN_SCENE_H__
